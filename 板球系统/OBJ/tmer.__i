@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\GPIO -I..\HARDWARE\SPI -I..\HARDWARE\HEADFILE -I..\HARDWARE\TFT -I..\HARDWARE\INIT -I..\HARDWARE\TIMER
+-I C:\Users\think\Desktop\STM32F407∑‚◊∞ø‚V1.0_–Ï œŒ∞“µ\USER\RTE
+-I D:\Keil_5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0
+-I D:\Keil_5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99
+-o ..\obj\tmer.o --omf_browse ..\obj\tmer.crf --depend ..\obj\tmer.d "..\HARDWARE\TIMER\tmer.c"
